@@ -14,9 +14,10 @@ setup(
     description="Recognize Anything Plus Model, Recognize Anything Model and Tag2Text Model",
     install_requires=get_requirements(),
     include_package_data=True,
-    packages=find_packages(where="."),
+    packages=["ram", "ram.configs", "ram.data", "ram.utils", "ram.models"],
     package_dir={
         "": ".",
+        "configs": "ram/configs",
         "data": "ram/data",
         "models": "ram/models",
         "utils": "ram/utils",
