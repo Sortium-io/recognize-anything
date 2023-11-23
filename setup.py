@@ -15,7 +15,7 @@ setup(
     install_requires=get_requirements(),
     packages=["ram", "ram.configs", "ram.data", "ram.utils", "ram.models"],
     package_data = {
-        '': ['*.yaml', '*.json', 'swin/*.yaml', 'swin/*.json'],
+        '': ['*.yaml', '*.json', '*.txt', 'swin/*.yaml', 'swin/*.json'],
     },
     package_dir={
         "": ".",
